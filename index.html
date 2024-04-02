@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Marketing NewTech Entreprise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="sticky">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="NewTech-Logotranspcopie2.png" alt="Logo de l'entreprise NewTech Entreprise">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="sitesInternet.html">Sites Internet</a></li>
+                <li><a href="publicites.html">Publicités</a></li>
+                <li><a href="gestionReseaux.html">Gestion des réseaux</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="accueil" class="section with-background">
+        <div class="container">
+            <h1>Bienvenue chez NewTech Entreprise !</h1>
+            <p>Nous réalisons vos projets avec professionnalisme et enthousiasme !</p>
+            <a href="#contact" class="btn">Contactez-nous</a>
+            
+        </div>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtenez l'URL actuelle
+            var currentUrl = window.location.href;
+    
+            // Sélectionnez tous les liens de navigation
+            var navLinks = document.querySelectorAll('.menu li a');
+    
+            // Parcourez chaque lien
+            navLinks.forEach(function(link) {
+                // Vérifiez si l'URL du lien correspond à l'URL actuelle
+                if (currentUrl.includes(link.href)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+<main>
+    <body>
+        <div>
+            <h1 class="central-text">Une rigueur et contrôle sur l'ensemble de nos projets</h1>
+        </div>
+        <div class="images-container">
+            <img src="sticker off 1.png" alt="projet"/> 
+            <img src="sticker off 3.png" alt="projet"/> 
+            <img src="sticker off 2.png" alt="projet"/>
+        </div>
+        <div class="center-text">
+            <h1> Nos services de gestion d'entreprise et de publicités</h1>
+        </div>
+
+        <div class="flex-container align-right">
+            <img src="creation web.jpg" alt="Description de l'image" class="image-left">
+            <div class="flex-content">
+                <h1>Création de Sites Internet Sur-Mesure</h1>
+                <p>Votre vitrine numérique par excellence. Chez NewTech Entreprise, nous comprenons<br> l'importance d'une présence en ligne impactante. Notre expertise en création de sites <br>internet allie esthétique et fonctionnalité  pour transformer chaque visite en une expérience<br> mémorable. Nous nous engageons à construire des sites web intuitifs, réactifs et optimisés<br> pour le référencement. Avec NewTech, offrez-vous un site qui non seulement vous ressemble, <br>mais qui propulse aussi votre visibilité au sommet des moteurs de recherche.</p>
+            </div>
+        </div>
+
+        <div class="flex-container align-left">
+            <div class="flex-content">
+                <h1>Stratégies Publicitaires Innovantes</h1>
+                <p>Votre marque mérite d'être vue et entendue. Dans le monde digital d'aujourd'hui,<br> se démarquer est essentiel. NewTech Entreprise, spécialiste en stratégies publicitaires,<br> utilise des techniques de marketing avancées pour mettre en valeur votre marque. Nos campagnes<br> publicitaires sur mesure sont conçues pour cibler efficacement votre audience et augmenter votre notoriété.<br> Avec nos solutions innovantes, transformez chaque interaction en opportunité de croissance<br> et voyez votre entreprise atteindre de nouveaux sommets.</p>
+            </div>
+            <img src="pub.jpg" alt="Description de l'autre image" class="image-right">
+        </div>
+
+        <div class="flex-container align-right">
+            <img src="gestion.jpg" alt="Description de l'image" class="image-left">
+            <div class="flex-content">
+                <h1>Gestion d'Entreprise Optimisée</h1>
+                <p>Piloter votre entreprise avec assurance et innovation. La gestion d'entreprise est un défi<br>quotidien. Chez NewTech Entreprise, nous vous proposons des solutions de gestion d'entreprise intelligentes, <br>conçues pour simplifier vos opérations et maximiser votre efficacité. Notre approche intègre les dernières<br> technologies pour vous offrir une vue d'ensemble et un contrôle précis sur chaque aspect de votre activité.<br> Faites le choix d'une gestion fluide et performante, et concentrez-vous sur ce que vous faites de mieux : développer votre entreprise.</p>
+            </div>
+        </div>
+        <div class="contact-section" id="contact">
+            <h1>Pour nous contacter :</h1>
+            <h3> Numéro : 07 69 15 63 51</h3>
+            <h3> E-mail : lazarcompanylc@gmail.com</h3>
+        </div>
+        
+    </body>
+</main>
+<footer>
+    <p>© 2024 NewTech Entreprise. Tous droits réservés.</p>
+<a href="mentionlegales.html" class="mentionlegale"> Mentions légales</a>
+</footer>
+
+</html>

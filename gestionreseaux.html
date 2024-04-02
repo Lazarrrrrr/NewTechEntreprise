@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion-Agence Marketing NewTech Entreprise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="sticky">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="NewTech-Logotranspcopie2.png" alt="Logo de l'entreprise NewTech Entreprise">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="sitesInternet.html">Sites Internet</a></li>
+                <li><a href="publicites.html">Publicités</a></li>
+                <li><a href="gestionReseaux.html">Gestion des réseaux</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="accueil" class="section with-background">
+        <div class="container">
+            <h1>Bienvenue chez NewTech Entreprise !</h1>
+            <p>Nous réalisons vos projets avec professionnalisme et enthousiasme !</p>
+            <a href="#contact" class="btn">Contactez-nous</a>
+            
+        </div>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtenez l'URL actuelle
+            var currentUrl = window.location.href;
+    
+            // Sélectionnez tous les liens de navigation
+            var navLinks = document.querySelectorAll('.menu li a');
+    
+            // Parcourez chaque lien
+            navLinks.forEach(function(link) {
+                // Vérifiez si l'URL du lien correspond à l'URL actuelle
+                if (currentUrl.includes(link.href)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+<main>
+    <body>
+        <div>
+            <h1 class="central-text">Une rigueur et contrôle sur l'ensemble de nos projets</h1>
+        </div>
+        <div class="images-container">
+            <img src="sticker off 1.png" alt="projet"/> 
+            <img src="sticker off 3.png" alt="projet"/> 
+            <img src="sticker off 2.png" alt="projet"/>
+        </div>
+        <div class="center-text">
+            <h1> Nos services de gestion d'entreprise et de publicités</h1>
+        </div>
+
+        <div class="flex-container align-right">
+            <img src="Gestion1.jpg" alt="Description de l'image" class="image-left">
+            <div class="flex-content">
+                <h1>Gestion Intelligente et Automatisée</h1>
+                <p>Chez NewTech Entreprise, nous révolutionnons la gestion d'entreprise avec<br> des solutions intelligentes et automatisées. Notre objectif est de simplifier vos<br> opérations quotidiennes, en vous libérant du temps et des ressources pour<br> vous concentrer sur la croissance de votre entreprise. Avec notre expertise <br>en automatisation, nous transformons vos processus d'affaires, réduisant<br> les erreurs, optimisant les performances et améliorant l'efficacité globale.</p>
+            </div>
+        </div>
+
+        <div class="flex-container align-right">
+            <img src="gestion2.jpg" alt="Description de l'image" class="image-left">
+            <div class="flex-content">
+                <h1>Analyse de Données et Reporting Avancé</h1>
+                <p>La puissance des données est au cœur de notre approche en gestion d'entreprise.<br> Nous vous offrons des outils d'analyse et de reporting de pointe qui vous donnent<br> une vision claire et détaillée de la performance de votre entreprise. Nos solutions <br>de reporting vous permettent de prendre des décisions éclairées, basées sur des<br> données précises et actualisées, pour une stratégie d'entreprise toujours à l'avant-garde.</p>
+            </div>
+        </div>
+
+        <div class="flex-container align-right">
+            <img src="Gestion3.jpg" alt="Description de l'image" class="image-left">
+            <div class="flex-content">
+                <h1>Conseil et Support Continu</h1>
+                <p> L'expertise ne s'arrête pas à la mise en place de solutions. NewTech Entreprise<br> s'engage à offrir un conseil et un support continus pour assurer que votre entreprise <br>tire le maximum de nos solutions de gestion. Notre équipe dédiée est là pour <br>répondre à vos questions, vous guider dans l'utilisation des outils et vous aider<br> à naviguer dans les défis uniques de votre entreprise. Avec NewTech Entreprise,<br> considérez-nous comme un partenaire dans votre croissance et succès continus.</p>
+            </div>
+        </div>
+        <div class="contact-section" id="contact">
+            <h1>Pour nous contacter :</h1>
+            <h3> Numéro : 07 69 15 63 51</h3>
+            <h3> E-mail : lazarcompanylc@gmail.com</h3>
+        </div>
+        
+    </body>
+</main>
+
+<footer>
+    <p>© 2024 NewTech Entreprise. Tous droits réservés.</p>
+<a href="mentionlegales.html" class="mentionlegale"> Mentions légales</a>
+</footer>
+
+</html>

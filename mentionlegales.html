@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions légales - Agence Marketing NewTech Entreprise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="sticky">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="NewTech-Logotranspcopie2.png" alt="Logo de l'entreprise NewTech Entreprise">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="sitesInternet.html">Sites Internet</a></li>
+                <li><a href="publicites.html">Publicités</a></li>
+                <li><a href="gestionReseaux.html">Gestion des réseaux</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="accueil" class="section with-background">
+        <div class="container">
+            <h1>Bienvenue chez NewTech Entreprise !</h1>
+            <p>Nous réalisons vos projets avec professionnalisme et enthousiasme !</p>
+            <a href="#contact" class="btn">Contactez-nous</a>
+            
+        </div>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtenez l'URL actuelle
+            var currentUrl = window.location.href;
+    
+            // Sélectionnez tous les liens de navigation
+            var navLinks = document.querySelectorAll('.menu li a');
+    
+            // Parcourez chaque lien
+            navLinks.forEach(function(link) {
+                // Vérifiez si l'URL du lien correspond à l'URL actuelle
+                if (currentUrl.includes(link.href)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+<main>
+    <body>
+        <div class="mention">
+            <h1>Les mentions légales</h1>
+        </div>
+        
+        <div class="mention2">
+            <h2>Identification de l'entreprise</h2>
+            <p>Nom de l'entreprise : NewTech Entreprise<br>
+               SIRET : 98411749900017<br>
+               Forme juridique : Micro-Entreprise<br>
+               Téléphone : 0769156351<br>
+               E-mail : lazarcompanylc@gmail.com</p>
+
+            <h2>Responsable de la publication</h2>
+            <p>Lazar Lazarov</p>
+
+
+            <h2>Propriété intellectuelle</h2>
+            <p>Tous les contenus de ce site (textes, photographies, illustrations, logos, fichiers disponibles en téléchargement, base de données figurant sur le site, clips vidéo ou sonores, etc.) sont la propriété exclusive de [Nom de l'entreprise] ou de ses partenaires. Toute reproduction, représentation, diffusion ou rediffusion, en tout ou partie, du contenu de ce site sur quelque support ou par tout procédé que ce soit, est interdite sans l'autorisation expresse et écrite de [Nom de l'entreprise]. Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur.</p>
+
+            <h2>Collecte de données</h2>
+            <p>Les informations personnelles pouvant être recueillies sur le site sont principalement utilisées par l'éditeur pour la gestion des relations avec vous, et le cas échéant pour le traitement de vos commandes. Les données collectées sont nécessaires pour ces opérations et sont destinées aux services compétents de l'entreprise.</p>
+        </div>
+        
+        <div class="contact-section" id="contact">
+            <h1>Pour nous contacter :</h1>
+            <h3> Numéro : 07 69 15 63 51</h3>
+            <h3> E-mail : lazarcompanylc@gmail.com</h3>
+        </div>
+        
+    </body>
+</main>
+
+<footer>
+    <p>© 2024 NewTech Entreprise. Tous droits réservés.</p>
+</footer>
+
+</html>

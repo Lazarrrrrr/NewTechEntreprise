@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Internet-Agence Marketing NewTech Entreprise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="sticky">
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="NewTech-Logotranspcopie2.png" alt="Logo de l'entreprise NewTech Entreprise">
+                </a>
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="sitesInternet.html">Sites Internet</a></li>
+                <li><a href="publicites.html">Publicités</a></li>
+                <li><a href="gestionReseaux.html">Gestion des réseaux</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="accueil" class="section with-background">
+        <div class="container">
+            <h1>Bienvenue chez NewTech Entreprise !</h1>
+            <p>Nous réalisons vos projets avec professionnalisme et enthousiasme !</p>
+            <a href="#contact" class="btn">Contactez-nous</a>
+            
+        </div>
+    </section>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Obtenez l'URL actuelle
+            var currentUrl = window.location.href;
+    
+            // Sélectionnez tous les liens de navigation
+            var navLinks = document.querySelectorAll('.menu li a');
+    
+            // Parcourez chaque lien
+            navLinks.forEach(function(link) {
+                // Vérifiez si l'URL du lien correspond à l'URL actuelle
+                if (currentUrl.includes(link.href)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+<main>
+    <body>
+        <div>
+            <h1 class="central-text">Une rigueur et contrôle sur l'ensemble de nos projets</h1>
+        </div>
+        <div class="images-container">
+            <img src="sticker off 1.png" alt="projet"/> 
+            <img src="sticker off 3.png" alt="projet"/> 
+            <img src="sticker off 2.png" alt="projet"/>
+        </div>
+        <div class="center-text">
+            <h1> Nos services de gestion d'entreprise et de publicités</h1>
+        </div>
+
+        <div class="flex-container align-right">
+            <img src="internet 2.jpg" alt="Description de l'image" class="image-left">
+            <div class="flex-content">
+                <h1>Conception de Sites Web Innovants</h1>
+                <p>Chez NewTech Entreprise, nous créons des sites web qui allient innovation et créativité.<br> Notre approche unique de la conception web assure que votre site se démarque dans<br> l'océan numérique.Avec une navigation intuitive, un design réactif et un contenu<br> visuellement attrayant, nous vous aidons à captiver votre audience dès le premier clic.<br> Un site web innovant est la clé pour faire une première impression mémorable.</p>
+            </div>
+        </div>
+
+        <div class="flex-container align-right">
+            <img src="internet 3.jpg" alt="Description de l'image" class="image-left">
+            <div class="flex-content">
+                <h1>Optimisation SEO Avancée</h1>
+                <p>Dans le monde numérique actuel, être visible sur les moteurs de recherche est essentiel. <br>Notre stratégie SEO avancée place votre site en haut des résultats de recherche.<br> Nous utilisons des techniques de référencement éprouvées pour améliorer la visibilité<br> de votre site, augmenter le trafic et attirer votre public cible. Avec NewTech Entreprise,<br> soyez assuré que votre site est non seulement trouvé, mais aussi choisi.</p>
+            </div>
+        </div>
+
+        <div class="flex-container align-right">
+            <img src="interent 1.jpg" alt="Description de l'image" class="image-left">
+            <div class="flex-content">
+                <h1>Solutions Web Personnalisées</h1>
+                <p>Chaque entreprise est unique, et votre site web devrait l'être aussi. Nous offrons des solutions web<br> personnalisées conçues pour répondre à vos besoins spécifiques. Que vous cherchiez à établir une <br>boutique en ligne, à présenter vos services ou à construire une plateforme interactive, nous avons<br> les compétences et l'expérience nécessaires pour transformer votre vision en réalité. Ensemble,<br> construisons un site qui raconte l'histoire de votre marque.</p>
+            </div>
+        </div>
+
+        
+
+        
+          
+        </div>
+        <div class="contact-section" id="contact">
+            <h1>Pour nous contacter :</h1>
+            <h3> Numéro : 07 69 15 63 51</h3>
+            <h3> E-mail : lazarcompanylc@gmail.com</h3>
+        </div>
+        
+    </body>
+</main>
+
+<footer>
+    <p>© 2024 NewTech Entreprise. Tous droits réservés.</p>
+<a href="mentionlegales.html" class="mentionlegale"> Mentions légales</a>
+</footer>
+
+</html>
